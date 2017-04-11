@@ -1,3 +1,4 @@
-﻿  ConnectDots.c
+﻿  CatmullRumAndOverhauser.c
+c:\users\nina\documents\github\graphics\catmullrumandoverhauser\catmullrumandoverhauser.c(42): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
   CatmullRumAndOverhauser.vcxproj -> C:\Users\Nina\Documents\GitHub\Graphics\CatmullRumAndOverhauser\Debug\CatmullRumAndOverhauser.exe
   CatmullRumAndOverhauser.vcxproj -> C:\Users\Nina\Documents\GitHub\Graphics\CatmullRumAndOverhauser\Debug\CatmullRumAndOverhauser.pdb (Full PDB)

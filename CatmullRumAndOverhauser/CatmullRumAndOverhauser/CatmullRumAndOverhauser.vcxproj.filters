@@ -18,12 +18,12 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\ConnectDots.c">
+    <ClCompile Include="..\CatmullRumAndOverhauser.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\ConnectDots.h">
+    <ClInclude Include="..\CatmullRumAndOverhauser.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
