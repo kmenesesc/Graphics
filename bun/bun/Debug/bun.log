@@ -1,0 +1,39 @@
+﻿  bun.cpp
+c:\users\nina\documents\github\graphics\bun\bun\bun.cpp(80): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+c:\users\nina\documents\github\graphics\bun\bun\bun.cpp(80): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\nina\documents\github\graphics\bun\bun\bun.cpp(89): warning C4838: conversion from 'double' to 'const float' requires a narrowing conversion
+c:\users\nina\documents\github\graphics\bun\bun\bun.cpp(89): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\nina\documents\github\graphics\bun\bun\bun.cpp(96): warning C4838: conversion from 'double' to 'const float' requires a narrowing conversion
+c:\users\nina\documents\github\graphics\bun\bun\bun.cpp(96): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\nina\documents\github\graphics\bun\bun\bun.cpp(104): warning C4838: conversion from 'double' to 'const float' requires a narrowing conversion
+c:\users\nina\documents\github\graphics\bun\bun\bun.cpp(104): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\nina\documents\github\graphics\bun\bun\bun.cpp(111): warning C4838: conversion from 'double' to 'const float' requires a narrowing conversion
+c:\users\nina\documents\github\graphics\bun\bun\bun.cpp(111): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\nina\documents\github\graphics\bun\bun\bun.cpp(119): warning C4838: conversion from 'double' to 'const float' requires a narrowing conversion
+c:\users\nina\documents\github\graphics\bun\bun\bun.cpp(119): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\nina\documents\github\graphics\bun\bun\bun.cpp(126): warning C4838: conversion from 'double' to 'const float' requires a narrowing conversion
+c:\users\nina\documents\github\graphics\bun\bun\bun.cpp(126): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\nina\documents\github\graphics\bun\bun\bun.cpp(133): warning C4838: conversion from 'double' to 'const float' requires a narrowing conversion
+c:\users\nina\documents\github\graphics\bun\bun\bun.cpp(133): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\nina\documents\github\graphics\bun\bun\bun.cpp(139): warning C4838: conversion from 'double' to 'const float' requires a narrowing conversion
+c:\users\nina\documents\github\graphics\bun\bun\bun.cpp(139): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\nina\documents\github\graphics\bun\bun\bun.cpp(159): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+c:\users\nina\documents\github\graphics\bun\bun\bun.cpp(159): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\nina\documents\github\graphics\bun\bun\bun.cpp(160): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+c:\users\nina\documents\github\graphics\bun\bun\bun.cpp(160): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\nina\documents\github\graphics\bun\bun\bun.cpp(161): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+c:\users\nina\documents\github\graphics\bun\bun\bun.cpp(161): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\nina\documents\github\graphics\bun\bun\bun.cpp(165): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+c:\users\nina\documents\github\graphics\bun\bun\bun.cpp(165): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\nina\documents\github\graphics\bun\bun\bun.cpp(166): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+c:\users\nina\documents\github\graphics\bun\bun\bun.cpp(166): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\nina\documents\github\graphics\bun\bun\bun.cpp(173): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+c:\users\nina\documents\github\graphics\bun\bun\bun.cpp(173): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\nina\documents\github\graphics\bun\bun\bun.cpp(282): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\nina\documents\github\graphics\bun\bun\bun.cpp(294): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\nina\documents\github\graphics\bun\bun\bun.cpp(306): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\nina\documents\github\graphics\bun\bun\bun.cpp(319): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\nina\documents\github\graphics\bun\bun\bun.cpp(414): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+c:\users\nina\documents\github\graphics\bun\bun\bun.cpp(418): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+  bun.vcxproj -> C:\Users\Nina\Documents\GitHub\Graphics\bun\Debug\bun.exe
+  bun.vcxproj -> C:\Users\Nina\Documents\GitHub\Graphics\bun\Debug\bun.pdb (Full PDB)
