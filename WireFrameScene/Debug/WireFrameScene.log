@@ -1,0 +1,6 @@
+﻿  WireFrameScene.cpp
+h:\visual studio 2015\projects\wireframescene\wireframescene.cpp(222): warning C4101: 'y2': unreferenced local variable
+h:\visual studio 2015\projects\wireframescene\wireframescene.cpp(222): warning C4101: 'y1': unreferenced local variable
+h:\visual studio 2015\projects\wireframescene\wireframescene.cpp(222): warning C4101: 'y3': unreferenced local variable
+h:\visual studio 2015\projects\wireframescene\wireframescene.cpp(222): warning C4101: 'y4': unreferenced local variable
+  WireFrameScene.vcxproj -> H:\Visual Studio 2015\Projects\WireFrameScene\Debug\WireFrameScene.exe
