@@ -10,13 +10,10 @@ To control the mesh of the entire rendering:
 To control the animation:
 *   Press the "a" key to toggle the animation off and on.
 *   Press the "s" key to perform a single step of the animation.
-*   The left and right arrow keys controls the
-*		rate of rotation around the y-axis.
-*   The up and down arrow keys increase and decrease the rate of
-*		rotation around the x-axis.  In order to reverse rotational
-*		direction you must zero or reset the patch ("0" or "r").
-*   Press the "r" key to reset back to initial
-*		position, with no rotation.
+*   The left and right arrow keys controls the	rate of rotation around the y-axis.
+*   The up and down arrow keys increase and decrease the rate of		rotation around the x-axis. 
+*   In order to reverse rotational direction you must zero or reset the patch ("0" or "r").
+*   Press the "r" key to reset back to initial	position, with no rotation.
 *   Press "0" (zero) to zero the rotation rates.
 
  Here’s a picture of the program: 
