@@ -1,0 +1,22 @@
+﻿  Aabb.cpp
+  Integration.cpp
+  LinearR2.cpp
+  LinearR3.cpp
+  LinearR4.cpp
+  MatrixLowerRnn.cpp
+  MatrixRmn.cpp
+  MersenneTwister.cpp
+  Numbers.cpp
+  Parallelepiped.cpp
+  PolygonClip.cpp
+  PolygonIntersect.cpp
+  PolynomialRC.cpp
+  Quaternion.cpp
+  RationalExtrapolation.cpp
+  ScalarWithHessian.cpp
+  ScalarWithPartials.cpp
+  Slerp.cpp
+  Statistics.cpp
+  VectorRn.cpp
+  Generating Code...
+  VrMath.vcxproj -> \\acsnfs4.ucsd.edu\CifsHomes\867\kmmenese\Visual Studio 2015\Projects\Project5\VrMath\Release\VrMath.lib
