@@ -18,10 +18,10 @@ To control the animation:
 
  Here’s a picture of the program: 
  
-![Front](https://i.postimg.cc/Kzq1NH8y/bun2.png=250x250)
-
-![Back of project](https://i.postimg.cc/nrNC89mR/bun1.png=250x250)
+<img src="https://i.postimg.cc/Kzq1NH8y/bun2.png" width="250" height="250">
+<img src="https://i.postimg.cc/nrNC89mR/bun1.png" width="250" height="250">
 
 And here’s a picture of the inspiration (All credit to the show: “Is the order a rabbit?” for the image): 
 
-![Inspiration](https://i.postimg.cc/j2DLk4Dn/bun3.png=250x250)
+<img src="https://i.postimg.cc/j2DLk4Dn/bun3.png">
+
