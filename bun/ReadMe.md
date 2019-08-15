@@ -18,8 +18,10 @@ To control the animation:
 
  Here’s a picture of the program: 
  
-<img src="https://i.postimg.cc/Kzq1NH8y/bun2.png" width="250" height="250">
-<img src="https://i.postimg.cc/nrNC89mR/bun1.png" width="250" height="250">
+<div class="inline-block">
+ <img src="https://i.postimg.cc/Kzq1NH8y/bun2.png" width="250" height="250">
+ <img src="https://i.postimg.cc/nrNC89mR/bun1.png" width="250" height="250">
+</div>
 
 And here’s a picture of the inspiration (All credit to the show: “Is the order a rabbit?” for the image): 
 
