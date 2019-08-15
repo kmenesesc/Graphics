@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B8B3ADF6-8247-42D4-A3D8-F5DFE5D6A4FE}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.25431.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <PrecompiledHeaderOutputFile>.\Release/Graphics.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>C:\Documents and Settings\sbuss\My Documents\WebFiles\PublicWeb\MathCG\RayTrace\C++ Projects\RayTrace;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>.\Release\Graphics.lib</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <PrecompiledHeaderOutputFile>.\Debug/Graphics.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>.\Debug\Graphics.lib</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="BumpMapFunction.cpp" />
+    <ClCompile Include="CameraView.cpp" />
+    <ClCompile Include="DirectLight.cpp" />
+    <ClCompile Include="Extents.cpp" />
+    <ClCompile Include="Material.cpp" />
+    <ClCompile Include="MaterialCookTorrance.cpp" />
+    <ClCompile Include="PixelArray.cpp" />
+    <ClCompile Include="RgbImage.cpp" />
+    <ClCompile Include="TextureAffineXform.cpp" />
+    <ClCompile Include="TextureBilinearXform.cpp" />
+    <ClCompile Include="TextureCheckered.cpp" />
+    <ClCompile Include="TextureMapBase.cpp" />
+    <ClCompile Include="TextureMultiFaces.cpp" />
+    <ClCompile Include="TextureRgbImage.cpp" />
+    <ClCompile Include="TextureSequence.cpp" />
+    <ClCompile Include="TransformViewable.cpp" />
+    <ClCompile Include="ViewableBase.cpp" />
+    <ClCompile Include="ViewableBezierSet.cpp" />
+    <ClCompile Include="ViewableCone.cpp" />
+    <ClCompile Include="ViewableCylinder.cpp" />
+    <ClCompile Include="ViewableEllipsoid.cpp" />
+    <ClCompile Include="ViewableParallelepiped.cpp" />
+    <ClCompile Include="ViewableParallelogram.cpp" />
+    <ClCompile Include="ViewableSphere.cpp" />
+    <ClCompile Include="ViewableTorus.cpp" />
+    <ClCompile Include="ViewableTriangle.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BumpMapFunction.h" />
+    <ClInclude Include="CameraView.h" />
+    <ClInclude Include="DirectLight.h" />
+    <ClInclude Include="Extents.h" />
+    <ClInclude Include="Light.h" />
+    <ClInclude Include="Material.h" />
+    <ClInclude Include="MaterialBase.h" />
+    <ClInclude Include="MaterialCookTorrance.h" />
+    <ClInclude Include="PixelArray.h" />
+    <ClInclude Include="RgbImage.h" />
+    <ClInclude Include="TextureAffineXform.h" />
+    <ClInclude Include="TextureBilinearXform.h" />
+    <ClInclude Include="TextureCheckered.h" />
+    <ClInclude Include="TextureMapBase.h" />
+    <ClInclude Include="TextureMultiFaces.h" />
+    <ClInclude Include="TextureRgbImage.h" />
+    <ClInclude Include="TextureSequence.h" />
+    <ClInclude Include="TransformViewable.h" />
+    <ClInclude Include="ViewableBase.h" />
+    <ClInclude Include="ViewableBezierSet.h" />
+    <ClInclude Include="ViewableCone.h" />
+    <ClInclude Include="ViewableCylinder.h" />
+    <ClInclude Include="ViewableEllipsoid.h" />
+    <ClInclude Include="ViewableParallelepiped.h" />
+    <ClInclude Include="ViewableParallelogram.h" />
+    <ClInclude Include="ViewableSphere.h" />
+    <ClInclude Include="ViewableTorus.h" />
+    <ClInclude Include="ViewableTriangle.h" />
+    <ClInclude Include="VisiblePoint.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataStructs\DataStructs.vcxproj">
+      <Project>{a62a7ad8-e2bc-40b8-943d-58cb300e5a2a}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\RayTrace\packages\nupengl.core.redist.0.1.0.1\build\native\nupengl.core.redist.targets" Condition="Exists('..\RayTrace\packages\nupengl.core.redist.0.1.0.1\build\native\nupengl.core.redist.targets')" />
+    <Import Project="..\RayTrace\packages\nupengl.core.0.1.0.1\build\native\nupengl.core.targets" Condition="Exists('..\RayTrace\packages\nupengl.core.0.1.0.1\build\native\nupengl.core.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\RayTrace\packages\nupengl.core.redist.0.1.0.1\build\native\nupengl.core.redist.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\RayTrace\packages\nupengl.core.redist.0.1.0.1\build\native\nupengl.core.redist.targets'))" />
+    <Error Condition="!Exists('..\RayTrace\packages\nupengl.core.0.1.0.1\build\native\nupengl.core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\RayTrace\packages\nupengl.core.0.1.0.1\build\native\nupengl.core.targets'))" />
+  </Target>
+</Project>
