@@ -1,0 +1,6 @@
+﻿  RayTrace.cpp
+  RayTraceData.cpp
+  Generating Code...
+LINK : warning LNK4081: insufficient disk space; linking nonincrementally
+RayTrace.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+LINK : fatal error LNK1201: error writing to program database '\\acsnfs4.ucsd.edu\CifsHomes\867\kmmenese\Visual Studio 2015\Projects\Project5\RayTrace\Debug\RayTrace.pdb'; check for insufficient disk space, invalid path, or insufficient privilege
