@@ -1,0 +1,8 @@
+﻿  RayTraceStats.cpp
+\\acsnfs4.ucsd.edu\cifshomes\867\kmmenese\visual studio 2015\projects\project5\raytracekd\raytracestats.cpp(134): error C2471: cannot update program database '\\acsnfs4.ucsd.edu\CifsHomes\867\kmmenese\Visual Studio 2015\Projects\Project5\RayTraceKd\Debug\vc140.pdb'
+  RayTraceSetup2.cpp
+\\acsnfs4.ucsd.edu\cifshomes\867\kmmenese\visual studio 2015\projects\project5\raytracekd\raytracesetup2.cpp : fatal error C1033: cannot open program database '\\acsnfs4.ucsd.edu\CifsHomes\867\kmmenese\Visual Studio 2015\Projects\Project5\RayTraceKd\Debug\vc140.pdb'
+  RayTraceKd.cpp
+\\acsnfs4.ucsd.edu\cifshomes\867\kmmenese\visual studio 2015\projects\project5\raytracekd\raytracekd.cpp : fatal error C1033: cannot open program database '\\acsnfs4.ucsd.edu\CifsHomes\867\kmmenese\Visual Studio 2015\Projects\Project5\RayTraceKd\Debug\vc140.pdb'
+  Generating Code...
+cl : Command line warning D9028: minimal rebuild failure, reverting to normal build
