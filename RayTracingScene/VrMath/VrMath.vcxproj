@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A66B2D8D-1FA8-4776-A6A6-25F56BE28ED0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.25420.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>Debug\</OutDir>
+    <IntDir>Debug\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>Release\</OutDir>
+    <IntDir>Release\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)VrMath.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OmitFramePointers>true</OmitFramePointers>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)VrMath.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Aabb.cpp" />
+    <ClCompile Include="Integration.cpp" />
+    <ClCompile Include="LinearR2.cpp" />
+    <ClCompile Include="LinearR3.cpp" />
+    <ClCompile Include="LinearR4.cpp" />
+    <ClCompile Include="MatrixLowerRnn.cpp" />
+    <ClCompile Include="MatrixRmn.cpp" />
+    <ClCompile Include="MersenneTwister.cpp" />
+    <ClCompile Include="Numbers.cpp" />
+    <ClCompile Include="Parallelepiped.cpp" />
+    <ClCompile Include="PolygonClip.cpp" />
+    <ClCompile Include="PolygonIntersect.cpp" />
+    <ClCompile Include="PolynomialRC.cpp" />
+    <ClCompile Include="Quaternion.cpp" />
+    <ClCompile Include="RationalExtrapolation.cpp" />
+    <ClCompile Include="ScalarWithHessian.cpp" />
+    <ClCompile Include="ScalarWithPartials.cpp" />
+    <ClCompile Include="Slerp.cpp" />
+    <ClCompile Include="Statistics.cpp" />
+    <ClCompile Include="VectorRn.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Aabb.h" />
+    <ClInclude Include="Integration.h" />
+    <ClInclude Include="LinearR2.h" />
+    <ClInclude Include="LinearR3.h" />
+    <ClInclude Include="LinearR4.h" />
+    <ClInclude Include="MathMisc.h" />
+    <ClInclude Include="MatrixLowerRnn.h" />
+    <ClInclude Include="MatrixRmn.h" />
+    <ClInclude Include="MersenneTwister.h" />
+    <ClInclude Include="Numbers.h" />
+    <ClInclude Include="Parallelepiped.h" />
+    <ClInclude Include="PolygonClip.h" />
+    <ClInclude Include="PolygonIntersect.h" />
+    <ClInclude Include="PolynomialRC.h" />
+    <ClInclude Include="Quaternion.h" />
+    <ClInclude Include="RationalExtrapolation.h" />
+    <ClInclude Include="ScalarWithHessian.h" />
+    <ClInclude Include="ScalarWithPartials.h" />
+    <ClInclude Include="Slerp.h" />
+    <ClInclude Include="Statistics.h" />
+    <ClInclude Include="VectorRn.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
