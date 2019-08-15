@@ -1,0 +1,30 @@
+﻿  BumpMapFunction.cpp
+  CameraView.cpp
+  DirectLight.cpp
+  Extents.cpp
+  Material.cpp
+  MaterialCookTorrance.cpp
+  PixelArray.cpp
+  RgbImage.cpp
+  TextureAffineXform.cpp
+  TextureBilinearXform.cpp
+  TextureCheckered.cpp
+  TextureMapBase.cpp
+  TextureMultiFaces.cpp
+  TextureRgbImage.cpp
+  TextureSequence.cpp
+  TransformViewable.cpp
+  ViewableBase.cpp
+  ViewableBezierSet.cpp
+  ViewableCone.cpp
+  ViewableCylinder.cpp
+  Generating Code...
+  Compiling...
+  ViewableEllipsoid.cpp
+  ViewableParallelepiped.cpp
+  ViewableParallelogram.cpp
+  ViewableSphere.cpp
+  ViewableTorus.cpp
+  ViewableTriangle.cpp
+  Generating Code...
+  Graphics.vcxproj -> \\acsnfs4.ucsd.edu\CifsHomes\867\kmmenese\Visual Studio 2015\Projects\Project5\Graphics\.\Debug\Graphics.lib
