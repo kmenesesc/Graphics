@@ -1,0 +1,5 @@
+﻿  RayTrace2.cpp
+RayTrace2.cpp(151): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+RayTrace2.cpp(152): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  RayTrace2.vcxproj -> \\acsnfs4.ucsd.edu\CifsHomes\867\kmmenese\Visual Studio 2015\Projects\Project5\RayTrace2\.\Release\RayTrace2.exe
+  RayTrace2.vcxproj -> .\Release/RayTrace2.pdb (Full PDB)

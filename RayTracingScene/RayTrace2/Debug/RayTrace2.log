@@ -1,0 +1,4 @@
+﻿  RayTrace2.cpp
+h:\visual studio 2015\projects\project5\raytrace2\raytrace2.cpp(151): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+h:\visual studio 2015\projects\project5\raytrace2\raytrace2.cpp(152): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+h:\visual studio 2015\projects\project5\raytrace2\raytrace2.cpp(537): error C2471: cannot update program database 'H:\Visual Studio 2015\Projects\Project5\RayTrace2\Debug\vc140.pdb'
